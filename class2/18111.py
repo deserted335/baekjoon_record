@@ -1,5 +1,6 @@
-# 마인크래프트
 from collections import defaultdict
+
+# incomplete
 
 if __name__=="__main__":
   N, M, B = (int(i) for i in input().split())
