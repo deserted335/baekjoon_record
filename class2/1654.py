@@ -22,7 +22,7 @@ if __name__=="__main__":
     K, N = (int(i) for i in input().split())
     ls = [int(sys.stdin.readline().rstrip()) for _ in range(K)]
     start = 1
-    end = int(sum(ls) / N) + 1
+    end = int(sum(ls) / N) + 1 # honestly I dont know why I have to add 1
     while end - start != 1 and start != end:
       num = 0
       mid = (start + end) // 2
