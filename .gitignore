@@ -1,2 +1,4 @@
 *.exe
 /.vscode
+23*/
+a.out

@@ -12,8 +12,8 @@ void dfs(int here){
   visited[here] = true;
   // What to do
   for(int i = 0; i < N; i++){
-    int there = adj[here][i];
-    if(!visited[there]) dfs(there);
+    int isConnected = adj[here][i];
+    if(!visited[i] && isConnected) dfs(i);
   }
 }
 
@@ -25,7 +25,6 @@ void dfsAll(){
     }
   }
 }
-
 
 int main(){
   cin >> N >> M;

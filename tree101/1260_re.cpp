@@ -27,5 +27,5 @@ void dfsAll(){
 }
 
 int main(){
-
+  dfsAll();
 }
